@@ -1,0 +1,1 @@
+Find a pattern in an array
