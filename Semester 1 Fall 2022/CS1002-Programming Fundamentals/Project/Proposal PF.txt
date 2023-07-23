@@ -1,0 +1,31 @@
+Programming Fundamentals Project
+
+
+Proposal
+
+By:
+Tahawar Ali (22l-6761)
+Muhammad Faizan Shabir (22l-6552)
+Umer Khalid (22l-6546)
+Muhammad Abdullah (22l-6594)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Type: Video Game
+Genre: 2D fixed Shooter game
+Description: A player-controlled space ship on the bottom of the screen with the ability to move horizontally across the frame shoots projectiles that damages/eliminates enemies which are spawned on the middle and top of the screen, as the enemies are shot down, the player racks up points, The player tries to avoid the projectiles the enemy shoots at your spaceship in order to survive.
+
+Features:
+1.	 Special Graphics for the enemies, the space ship, the background and the projectiles.
+2.	A user interface which shows the points accumulated and the lives left.
+3.	A main menu with special artwork.
