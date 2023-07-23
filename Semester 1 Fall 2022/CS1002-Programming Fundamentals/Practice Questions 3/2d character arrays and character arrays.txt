@@ -1,0 +1,50 @@
+2D character array and character array
+Given a 2-Dimensional character array and a string, we need to find
+the given string in 2-dimensional character array, such that individual
+characters can be present left to right, right to left, top to down or
+down to top.
+ 
+a ={
+{D,D,D,G,D,D},
+{B,B,D,E,B,S},
+{B,S,K,E,B,K},
+{D,D,D,D,D,E},
+{D,D,D,D,D,E},
+{D,D,D,D,D,G}
+}
+str= "GEEKS"
+2
+a = {
+{B,B,M,B,B,B},
+{C,B,A,B,B,B},
+{I,B,G,B,B,B},
+{G,B,I,B,B,B},
+{A,B,C,B,B,B},
+{M,C,I,G,A,M}
+}
+str= "MAGIC"
+
+3
+
+
+ 
+
+
+– Traverse matrix character by character and take one character as string start 
+– For each character find the string in all the four directions recursively 
+– If a string found, we increase the count 
+– When we are done with one character as start, we repeat the same process for the next character 
+– Calculate the sum of count for each character 
+– Final count will be the answer
+                                                                                                                                                                                                                                              
+
+Given a string of lowercase characters, the task is to count the number of substrings of starting with character X and ending with character Y.
+ 
+str = "abbcaceghcak"
+x = 'a', y = 'c'
+5
+abbc, abbcac, ac, abbcaceghc, aceghc
+
+str = "geeksforgeeks"
+x = 'g', y = 'e'
+6
