@@ -1,0 +1,10 @@
+You are given 2 arrays , it contains positive integers. Both arrays consist of same elements except 1 in one array. It means 1 element is extra in one of the array. Order of elements in both arrays can be different. You have to find that one extra number.
+i.e 
+Array 1 : 2 5 3 4 7 9 
+Array 2 : 4 5 1 9 2 3 7 
+
+We can see that 1 is extra in Array 2, so answer is 1. 
+Goal : Try to find 1 in most efficient way.  
+Write code in the answer, no cpp file is required. You can write tell answer in plain english.
+Attempt is necessary.
+Although its ungraded. Responses can be used to give bonus marks in project at the end :)
