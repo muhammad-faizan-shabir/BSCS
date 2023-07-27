@@ -9,9 +9,8 @@ T calculate(T a)
 
 int main()
 {
-	cout << calculate(4)   << endl;
-	cout << calculate(7.6) << endl;
-	cout << int(calculate('c')) << endl;
+	cout << calculate(4)   << endl; // for integer
+	cout << calculate(7.6) << endl; // for float/double
 
 	cout << endl;
 	system("pause");
