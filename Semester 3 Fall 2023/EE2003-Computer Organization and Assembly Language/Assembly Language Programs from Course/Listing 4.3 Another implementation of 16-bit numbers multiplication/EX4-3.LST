@@ -1,0 +1,23 @@
+     1                                  ; 16bit multiplication using test for bit testing
+     2                                  [org 0x0100]
+     3                                  
+     4 00000000 E90A00                  jmp start
+     5 00000003 14050000                multiplicand: dd 1300 ; 16bit multiplicand 32bit space
+     6 00000007 F401                    multiplier: dw 500 ; 16bit multiplier
+     7 00000009 00000000                result: dd 0 ; 32bit result
+     8 0000000D B110                    start: mov cl, 16 ; initialize bit count to 16
+     9 0000000F BB0100                  mov bx, 1 ; initialize bit mask
+    10 00000012 851E[0700]              checkbit: test bx, [multiplier] ; test right most bit
+    11 00000016 740E                    jz skip ; skip addition if bit is zero
+    12 00000018 A1[0300]                mov ax, [multiplicand]
+    13 0000001B 0106[0900]              add [result], ax ; add less significant word
+    14 0000001F A1[0500]                mov ax, [multiplicand+2]
+    15 00000022 1106[0B00]              adc [result+2], ax ; add more significant word
+    16 00000026 D126[0300]              skip: shl word [multiplicand], 1
+    17 0000002A D116[0500]              rcl word [multiplicand+2], 1 ; shift multiplicand left
+    18 0000002E D1E3                    shl bx, 1 ; shift mask towards next bit
+    19 00000030 FEC9                    dec cl ; decrement bit count
+    20 00000032 75DE                    jnz checkbit ; repeat if bits left
+    21                                  
+    22 00000034 B8004C                  mov ax, 0x4c00 ; terminate program
+    23 00000037 CD21                    int 0x21
