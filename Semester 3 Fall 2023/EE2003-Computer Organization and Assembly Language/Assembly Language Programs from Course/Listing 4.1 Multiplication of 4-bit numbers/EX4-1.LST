@@ -1,0 +1,19 @@
+     1                                  ; 4bit multiplication algorithm
+     2                                  [org 0x100]
+     3                                  
+     4 00000000 E90300                  jmp start
+     5 00000003 0D                      multiplicand: db 13 ; 4bit multiplicand (8bit space)
+     6 00000004 05                      multiplier: db 5 ; 4bit multiplier
+     7 00000005 00                      result: db 0 ; 8bit result
+     8 00000006 B104                    start: mov cl, 4 ; initialize bit count to four
+     9 00000008 8A1E[0300]              mov bl, [multiplicand] ; load multiplicand in bl
+    10 0000000C 8A16[0400]              mov dl, [multiplier] ; load multiplier in dl
+    11 00000010 D0EA                    checkbit: shr dl, 1 ; move right most bit in carry
+    12 00000012 7304                    jnc skip ; skip addition if bit is zero
+    13 00000014 001E[0500]              add [result], bl ; accumulate result
+    14 00000018 D0E3                    skip: shl bl, 1 ; shift multiplicand left
+    15 0000001A FEC9                    dec cl ; decrement bit count
+    16 0000001C 75F2                    jnz checkbit ; repeat if bits left
+    17                                  
+    18 0000001E B8004C                  mov ax, 0x4c00 ; terminate program
+    19 00000021 CD21                    int 0x21
