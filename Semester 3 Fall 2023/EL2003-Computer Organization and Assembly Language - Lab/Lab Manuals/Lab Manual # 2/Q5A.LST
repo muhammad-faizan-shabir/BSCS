@@ -1,0 +1,31 @@
+     1                                  [org 0x0100]
+     2                                  
+     3 00000000 A1[4100]                        mov ax,[x]
+     4 00000003 8B16[4300]                      mov dx,[y]
+     5 00000007 39D0                            cmp ax,dx
+     6 00000009 770F                            ja if 
+     7 0000000B A1[4500]                        mov ax,[z] ; else
+     8 0000000E 39C2                            cmp dx,ax
+     9 00000010 7719                            ja if2
+    10 00000012 29D0                            sub ax,dx ; else-> else
+    11 00000014 A3[4700]                        mov [result],ax
+    12 00000017 E92200                          jmp end
+    13 0000001A 8B16[4500]              if:    mov dx,[z]
+    14 0000001E 39D0                            cmp ax,dx
+    15 00000020 7712                            ja if1
+    16 00000022 29C2                            sub dx,ax ; if ->else 
+    17 00000024 8916[4700]                     mov [result],dx
+    18 00000028 E91100                         jmp end
+    19 0000002B 29C2                    if2: sub dx,ax
+    20 0000002D 8916[4700]                     mov [result],dx
+    21 00000031 E90800                         jmp end
+    22 00000034 29D0                           if1: sub ax,dx
+    23 00000036 A3[4700]                       mov [result],ax
+    24 00000039 E90000                         jmp end
+    25                                  
+    26 0000003C B8004C                  end:mov ax,0x4c00
+    27 0000003F CD21                    int 0x21
+    28 00000041 0800                    x : dw 8
+    29 00000043 0F00                    y: dw 15
+    30 00000045 1400                    z: dw 20
+    31 00000047 0000                    result: dw 0
