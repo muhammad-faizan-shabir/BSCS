@@ -1,0 +1,23 @@
+     1                                  [org 0x0100]
+     2 00000000 BB[3400]                       mov bx,Fib     ; moving address Fib in bx
+     3 00000003 C7070000                       mov word[bx],0 ; moving 0 at first index
+     4 00000007 81C30200                       add bx,2       ; move to next index
+     5 0000000B C7070100                       mov word[bx],1 ; moving 1 to second index
+     6 0000000F 81C30200                       add bx,2       ; move to next index
+     7                                         
+     8 00000013 B90800                         mov cx,8       ; initialize cx with 8
+     9 00000016 B80000                  start: mov ax,0       ; initialize ax with 0
+    10 00000019 8B57FC                         mov dx,[bx-4]  ; move data from second last index from current index
+    11 0000001C 01D0                           add ax,dx      ; add data from second last index from current index to ax
+    12 0000001E 8B57FE                         mov dx,[bx-2]  ; move data from last index from current index
+    13 00000021 01D0                           add ax,dx      ; add data from last index from current index to ax
+    14 00000023 8907                           mov [bx],ax    ; move generated term to current index using indirect addressing
+    15 00000025 81C30200                       add bx,2       ; move to next index
+    16 00000029 81E90100                       sub cx,1       ; update counter
+    17 0000002D 75E7                           jnz start      ; jump to start of loop based on condition
+    18                                         
+    19 0000002F B8004C                         mov ax,0x4c00 
+    20 00000032 CD21                           int 0x21
+    21 00000034 000000000000000000-     Fib:   dw 0,0,0,0,0,0,0,0,0,0
+    22 0000003D 000000000000000000-
+    23 00000046 0000               
