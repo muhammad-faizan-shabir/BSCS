@@ -1,0 +1,7 @@
+[org 0x0100]
+mov ax,0xFFFF
+and ax,1111111101111111b
+or ax,0000000000000100b
+xor ax,0010000000000000b
+mov ax,0x4c00
+int 0x21
