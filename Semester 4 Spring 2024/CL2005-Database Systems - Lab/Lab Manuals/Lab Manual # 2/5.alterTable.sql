@@ -1,0 +1,1 @@
+alter table Students add Address varchar(50);
