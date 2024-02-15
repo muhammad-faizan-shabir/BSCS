@@ -1,1 +1,0 @@
-alter table Students drop column [Address];
