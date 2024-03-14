@@ -1,0 +1,7 @@
+Q1: https://cs.stackexchange.com/questions/69863/finding-median-of-2-sorted-arrays-in-olog-n
+
+Q2: https://www.enjoyalgorithms.com/blog/find-the-majority-element-in-an-array
+
+Q3: https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
+
+Q5: https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
