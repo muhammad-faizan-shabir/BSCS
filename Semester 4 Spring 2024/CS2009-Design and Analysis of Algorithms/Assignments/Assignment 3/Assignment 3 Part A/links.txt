@@ -1,0 +1,7 @@
+Q1: https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/
+
+Q2: https://www.youtube.com/watch?v=h9rm4N8XbL0
+
+Q3: https://takeuforward.org/data-structure/palindrome-partitioning-ii-front-partition-dp-53/
+
+Q4: https://takeuforward.org/data-structure/target-sum-dp-21/
