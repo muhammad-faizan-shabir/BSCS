@@ -1,0 +1,4 @@
+write a c++ program which creates 10 threads and each threads inserts 10 numbers into list and size of list should be 100. then after that list should have such data
+[1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2.... 10,10,10,10,10,10,10,10,10,10].
+order of these numbers can vary
+then after joining the threads. find the sum of list and print on the secreen.
