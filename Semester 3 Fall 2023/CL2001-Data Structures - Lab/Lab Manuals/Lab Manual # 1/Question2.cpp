@@ -7,7 +7,7 @@ class Matrix // template class
 	int **matrix;
 	int rows, columns;
 public:
-	Matrix(int rows = 0, int columns = 0) // overloaded constructor
+	Matrix(int rows = 0, int columns = 0) // overloaded constructo
 	{
 		this->rows = rows;
 		this->columns = columns;
