@@ -1,0 +1,6 @@
+Hello everyone,
+You can install the cccc package using the following command:
+sudo apt-get install cccc
+
+For a detailed guide on how to use the package, refer to the official user manual here:
+https://sarnold.github.io/cccc/CCCC_User_Guide.html?authuser=0
