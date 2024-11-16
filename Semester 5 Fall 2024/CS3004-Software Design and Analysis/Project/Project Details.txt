@@ -1,0 +1,14 @@
+Dear students
+Please note the following points about your project:
+- The company looks at hours, not days. For example, it is fine if an employee completes 40 hours in the first four
+days and does not appear on the next day!
+
+- Although an employee can file the casual-leave application after the leave period, she will get the hours only
+when her supervisor approves the application!
+
+- The system shall generate two separate reports for hours and leaves: One report shows the employees whose 
+total working hours are less than 80 percent. While other report lists employees who availed leaves without
+ approval/application
+
+Good luck!
+-AR
