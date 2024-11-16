@@ -1,0 +1,9 @@
+Assalam o Alaikum, 
+Hope you’re all feeling great.
+The evaluation criteria for the Attendance and Leave Management System Project are divided into two main
+components: 70% of the marks are based on adherence to Software Design Principles and the application of
+appropriate design patterns, such as Factory Method, Strategy, and Observer, to ensure scalability, flexibility, and
+maintainability. The remaining 30% of the marks are for the working project functionality, ensuring that all
+requirements are met.
+Below, you will find the detailed criteria, along with suggestions on the patterns and methods that can be followed to 
+make your job a little easy and create a well-structured project.
