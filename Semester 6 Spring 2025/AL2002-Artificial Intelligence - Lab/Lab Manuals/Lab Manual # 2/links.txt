@@ -1,0 +1,6 @@
+The following links will help you in today's lab.
+
+Python Lists: https://www.w3schools.com/python/python_lists.asp
+Python Tuples: https://www.w3schools.com/python/python_tuples.asp
+Python Dictionaries: https://www.w3schools.com/python/python_dictionaries.asp
+Python Exception Handling: https://www.w3schools.com/python/python_try_except.asp
