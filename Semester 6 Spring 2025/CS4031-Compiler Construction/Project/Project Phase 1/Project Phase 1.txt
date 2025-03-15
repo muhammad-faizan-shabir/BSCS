@@ -1,0 +1,30 @@
+Instructions:
+
+For Project Phase 1 (Lexical Analysis), you are required to submit the following files:
+1. An Excel file (lexer_your_roll_number.xlsx) containing the transition table of the Finite Automaton (FA) (as submitted
+in Assignment 1).
+2. A source code file named lexer_your_roll_number.cpp, which implements your lexical analyzer.
+3. A demonstration video named LexerDemo_your_roll_number.mp4. 
+4. Additionally, create a file and include appropriate test code in it. A file named Symbol_Table_your_roll_number.txt,
+which must list all identifiers and relevant words along with their positional attributes.
+5. A file named Literal_Table_your_roll_number.txt, which should contain only string literals.
+6. Keywords may be handled according to your specified FA design.
+7. A file named Error_your_roll_number.txt, which must record all lexical errors encountered.
+
+Note:
+You must complete this phase individually. You are permitted to use basic built-in functions only. For instance, you may
+utilize data structures such as stacks and heaps. However, high-level functions like string tokenizers are not allowed. 
+To achieve full credit, aim to implement the solution using the most fundamental code possible.
+
+Important:
+If your code is found to be plagiarized or generated with the assistance of Large Language Models (LLMs), you will
+receive for this phase. Moreover, late submission is not allowed at all.
+
+Best of luck!
+
+Special Instruction:
+You must use an Input Buffer (IB) pair, with each buffer having a size of 25 characters. Avoid storing the entire
+source code in a single array.
+Moreover, Ensure the code handles both single-line and multi-line comments. Additionally, condense multiple
+consecutive white spaces into a single space.
+Create a "Meow" category to manage these modifications.
