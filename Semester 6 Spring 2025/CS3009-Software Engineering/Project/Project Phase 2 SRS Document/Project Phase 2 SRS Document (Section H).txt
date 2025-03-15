@@ -1,0 +1,9 @@
+Develop a Software Requirement Specification (SRS) Document for your project, using the IEEE format attached. 
+Conduct 2 interviews each of a representative of the end user to gather requirements. Submit the interview results in a
+separate file containing your questions and the responses.
+
+As highlighted in the given SRS, you must include a context level dataflow diagram, level 1 DFD, use case diagram 
+and abstract class diagram for your project in the SRS.
+
+You have to deliver the hard copy of the deliverable in class on Thursday, 13th March and turn in the soft copy here
+BEFORE the class maximum by 11:30AM.
