@@ -1,0 +1,17 @@
+You can use this link to understand concepts and 8queens problem: https://www.youtube.com/watch?v=vXotl0NPeUU
+
+Use the following parameters:
+N = 8  # Number of queens
+POP_SIZE = 100  # Population size
+MUTATION_RATE = 0.2  # Mutation probability
+GENERATIONS = 1000  # Maximum number of generations
+
+Functions:
+Fitness function
+Selection
+Crossover
+Mutate: Swap two positions with some probability
+GeneticAlgorithm()
+
+
+Total marks: 20
