@@ -1,0 +1,7 @@
+Please find attached the template you can use to make the UI Design
+Document. Make the GUIs for your course project. You can use any tool
+to make the GUI (Figma is recommended, but no additional marks for using
+it or penalty for not using it). You may search the internet for free
+software tools to make user interface design, e.g. Figma, AdobeXD, 
+JustinMind, etc.
+Submit the soft copy only.
