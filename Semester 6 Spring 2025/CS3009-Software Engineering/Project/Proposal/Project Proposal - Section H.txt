@@ -1,0 +1,18 @@
+Make a project proposal for the first phase of your project: Know about your product.
+Before starting work on this phase kindly review the project titles' file and make sure it is well-understood.
+You team lead will make the submission, with the Word document name mentioning the section and project title.
+Your document should include the following:
+
+- Project Title
+- Group members name, roll numbers and section
+- Main features of the product
+- Expected user groups
+- Domain knowledge
+- Competitive analysis
+
+Document length should not exceed 4 pages. Submit the soft copy here and hard copies in class on 
+Thursday, 13th February. Also fill the competitor's info column
+(Column E) in the "SE Spring 2025 - project groups and titles" file
+attached herewith.
+
+https://docs.google.com/spreadsheets/d/1zq7ebMOuXr67TltM-JdxDSXguW0mTQvLH7JihhtM3ao/edit?usp=classroom_web&authuser=0
