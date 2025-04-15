@@ -1,0 +1,10 @@
+Project Requirements (as discussed in class): 
+1) Select a topic
+2) Search relevant research papers on the topic, pick paper you are interested in (preferably the latest one)
+3) Check for data availability [if the dataset used in the paper is not publicly available, you can use any similar available
+dataset]. 
+4) Preprocess the data using the same techniques discussed in the paper. 
+5) Implement the same model which is proposed in the paper. [Deep learning model] 
+6) Compare the results with the results in the paper also with any classic machine learning model. 
+7) Analyze the outcomes and present your findings. 
+8) Create ppt slides to explain the complete process and working of your model.
