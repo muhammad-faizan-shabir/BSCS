@@ -1,0 +1,1 @@
+In rule 1 : CompoundStmt is rewritten as CompStmt. Treat it as a single variable. It's a typing mistake.
