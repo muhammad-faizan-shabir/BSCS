@@ -1,0 +1,7 @@
+Design the architecture of your course project's system, by
+choosing the most appropriate architecture style(s). Justify the choice
+of architecture that you make. You can use a combination of the architectural styles too. Name your document 
+Software Architecture Document (SAD). Your
+submission will contain an architecture diagram (using functional
+decomposition and the sources taught in class), your refined class diagram and a component diagram (showing all
+the internal and external interfaces using UML 2.0 notation)
