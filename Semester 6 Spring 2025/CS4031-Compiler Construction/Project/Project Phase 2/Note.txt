@@ -1,1 +1,6 @@
 In rule 1 : CompoundStmt is rewritten as CompStmt. Treat it as a single variable. It's a typing mistake.
+
+In Rule 2, we encounter a comma ( , ) that isn't included in our current word set. Therefore, you need to add this 
+comma ( , ) to the punctuation word class.
+
+Students are required to generate a parse tree as the output of Phase 2, as outlined in the attached document.
