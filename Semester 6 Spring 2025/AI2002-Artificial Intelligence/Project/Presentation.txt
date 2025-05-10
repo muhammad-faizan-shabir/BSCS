@@ -1,0 +1,10 @@
+Points to be covered in the Presentation: 
+1) Explain your topic and problem statement from the selected paper
+2) Input? Outcome?
+3) Explain your dataset
+4) Deep learning Model architecture (proposed in the paper)
+5) Machine learning model selected
+6) Results
+7) Comparison
+8) Conclusion
+Be Creative...!
