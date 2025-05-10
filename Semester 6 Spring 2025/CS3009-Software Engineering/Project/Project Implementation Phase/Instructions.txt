@@ -1,0 +1,11 @@
+Dear Students,
+
+Please carefully follow the instructions for submitting your project implementation:
+
+• Your submission must include a ZIP file containing the complete project code.
+• You must create a screen recording demonstrating your project in action, make sure to showcase all functionalities. 
+  Try to keep the video under 2 minutes.
+• If your project is hosted on GitHub, you may include the repository link. Submit the GitHub link inside a Word
+  document along with your ZIP file.
+
+Please ensure all files in the ZIP are organized and complete.
