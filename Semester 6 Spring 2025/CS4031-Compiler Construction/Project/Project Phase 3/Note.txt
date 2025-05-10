@@ -1,0 +1,4 @@
+For this phase, you are required to use the same syntax analysis code you developed earlier. Carefully place translation
+rules only where necessary within the provided grammar subset.  Please remember that the output of this phase relies
+on all the previous phases you have implemented yourself.  A  *.cpp file will be given as input, and your program should
+generate a  *.tac (Three Address Code) file as output.
