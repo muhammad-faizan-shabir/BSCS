@@ -1,1 +1,0 @@
-Only a constant member function can be called for a constant object using dot notation
